@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Práctica 4: Tablas</title>
+        <link rel="stylesheet" href="../css/new-style.css" type="text/css">
+    </head>
+    <body>
+        <header>
+        	<h1>Práctica 4: Tablas</h1>
+            <a href="../index.html"><img class="header-img" src="../imagenes/casa.png"> </a> 
+        </header>
+        <nav>
+            <!--(header>h1)+(nav>ul>(li*8))+(main>(section>h2+p)*4)+footer>h5-->
+        	<ul>
+        		<li><a href="../html/practica_uno.html">Formatos</a></li>
+        		<li><a href="../html/listas.html">Listas</a></li>
+        		<li><a href="../html/enlaces.html">Enlaces</a></li>
+        		<li><a href="../html/tablas.html">Tablas</a></li>
+        		<li><a href="../html/imagenes.html">Imagenes</a></li>
+        		<li><a href="../html/audios.html">Audio</a></li>
+        		<li><a href="../html/videos.html">Video</a></li>
+        		<li><a href="../html/formularios.html">Formularios</a></li>
+        	</ul>
+        </nav>
+        <main>
+            
+        	<section class="box-claro" id="seccion_tab_simple">
+        		<h2>Tabla simple</h2>
+                <p> Tip pork beef ham tenderloin ham tip ground 
+                    hamburger fatback, jowl kielbasa pig pancetta, pig 
+                    hock ham belly. Andouille mignon pastrami, loin 
+                    turducken pig pork pork. Biltong pork tri-tip ham 
+                    pig belly frankfurter. Cow pig ribs short round. 
+                    Swine hamburger pig ground turkey tip ham ham pork 
+                    prosciutto ham tip turducken bierschinken, tongue 
+                    chicken bierschinken. Ham strip braunschweiger, 
+                    flank sausage ham shoulder tip ham tongue turkey 
+                    ribs pastrami, tip ball shoulder sopressata. 
+                    Andouille ham tri-tip. </p>
+                <table id="simple">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellidos</th>
+                            <th>Dirección</th>
+                            <th>Email</th>
+                            <th>Teléfono</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                         <!--(tr>(td*5))*5 emmet que hace 5 filas con 5 columnas-->
+                        <tr>
+                        	<td>Rosario</td>
+                        	<td>Gomez Farias</td>
+                        	<td>Calle de las flores #25</td>
+                        	<td>charito.gomez@gmail.com</td>
+                        	<td>2223403211</td>
+                        </tr>
+                        <tr>
+                        	<td>Eduardo</td>
+                        	<td>Sánchez Martinez</td>
+                        	<td>Calle los bosques #12</td>
+                        	<td>edu.sanchez@gmail.com</td>
+                        	<td>2224567891</td>
+                        </tr>
+                        <tr>
+                        	<td>Jael</td>
+                        	<td>Rodriguez Muñoz</td>
+                        	<td>San bartolo #39</td>
+                        	<td>jael.muñoz@gmail.com</td>
+                        	<td>2225168392</td>
+                        </tr>
+                        <tr>
+                        	<td>Paola</td>
+                        	<td>Sandoval Morales</td>
+                        	<td>La laguna #24</td>
+                        	<td>pao.morales@gmail.com</td>
+                        	<td>9516445570</td>
+                        </tr>
+                        <tr>
+                        	<td>Laisha</td>
+                        	<td>Sánchez Manjarrez</td>
+                        	<td>Casco viejo #2B Fracc. Hacienda San Juan</td>
+                        	<td>laisha.sanchez@gmail.com</td>
+                        	<td>2223401031</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        
+                    </tfoot>
+                </table>
+        	</section>
+        	<section>
+        		<h2>Tabla Colapsable</h2>
+                <p>Landjaeger corned tenderloin. Cow swine shoulder 
+                    landjaeger. Tip tip t-bone drumstick, ham shank 
+                    chop ham kielbasa, ham leberkas ham drumstick cow 
+                    ham ribs meatball andouille. Loin fatback ham 
+                    braunschweiger cow cow chop landjaeger meatball, 
+                    tail bregenwurst bresaola steak brisket, tip pig 
+                    ground chicken. Doner landjaeger pastrami ham 
+                    brisket corned drumstick shankle. Leberkas rump 
+                    fatback capicola. Tip ham boudin sirloin.</p>
+                <div class="desbordamiento">
+                    <table id="tab2">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellidos</th>
+                            <th>Dirección</th>
+                            <th>Email</th>
+                            <th>Teléfono</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                         <!--(tr>(td*5))*5 emmet que hace 5 filas con 5 columnas-->
+                        <tr>
+                        	<td>Rosario</td>
+                        	<td>Gomez Farias</td>
+                        	<td>Calle de las flores #25</td>
+                        	<td>charito.gomez@gmail.com</td>
+                        	<td>2223403211</td>
+                        </tr>
+                        <tr>
+                        	<td>Eduardo</td>
+                        	<td>Sánchez Martinez</td>
+                        	<td>Calle los bosques #12</td>
+                        	<td>edu.sanchez@gmail.com</td>
+                        	<td>2224567891</td>
+                        </tr>
+                        <tr>
+                        	<td>Jael</td>
+                        	<td>Rodriguez Muñoz</td>
+                        	<td>San bartolo #39</td>
+                        	<td>jael.muñoz@gmail.com</td>
+                        	<td>2225168392</td>
+                        </tr>
+                        <tr>
+                        	<td>Paola</td>
+                        	<td>Sandoval Morales</td>
+                        	<td>La laguna #24</td>
+                        	<td>pao.morales@gmail.com</td>
+                        	<td>9516445570</td>
+                        </tr>
+                        <tr>
+                        	<td>Laisha</td>
+                        	<td>Sánchez Manjarrez</td>
+                        	<td>Casco viejo #2B Fracc. Hacienda San Juan</td>
+                        	<td>laisha.sanchez@gmail.com</td>
+                        	<td>2223401031</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        
+                    </tfoot>
+                </table>
+                </div>
+        	</section>
+        	<section class="box-oscuro">
+        		<h2>Tabla Zebra</h2>
+                <p>Tenderloin beef pork pastrami short, loin tip cow 
+                    strip landjaeger, jerky hamburger cow steak tail, 
+                    bresaola chuck prosciutto. Tip round short ham 
+                    meatball ham beef porchetta bierschinken cow 
+                    tri-tip cow shoulder, meatball pig sirloin. Hock 
+                    shoulder tip sausage ham shoulder ball doner 
+                    tri-tip pork ham tip cow belly ribs short, ham 
+                    filet landjaeger porchetta, shankle doner cow 
+                    pancetta frankfurter cow drumstick cow ball, swine 
+                    ham ham short turducken, belly pig venison. Ham 
+                    loin shankle bregenwurst, filet tip kielbasa. 
+                    Sirloin t-bone kevin tip loin cow brisket ham 
+                    short. Tip spare loin tip meatball, pig cow ribs 
+                    venison.</p>
+                <div class="desbordamiento">
+                    <table id="tab3">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellidos</th>
+                            <th>Dirección</th>
+                            <th>Email</th>
+                            <th>Teléfono</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                         <!--(tr>(td*5))*5 emmet que hace 5 filas con 5 columnas-->
+                        <tr>
+                        	<td>Rosario</td>
+                        	<td>Gomez Farias</td>
+                        	<td>Calle de las flores #25</td>
+                        	<td>charito.gomez@gmail.com</td>
+                        	<td>2223403211</td>
+                        </tr>
+                        <tr>
+                        	<td>Eduardo</td>
+                        	<td>Sánchez Martinez</td>
+                        	<td>Calle los bosques #12</td>
+                        	<td>edu.sanchez@gmail.com</td>
+                        	<td>2224567891</td>
+                        </tr>
+                        <tr>
+                        	<td>Jael</td>
+                        	<td>Rodriguez Muñoz</td>
+                        	<td>San bartolo #39</td>
+                        	<td>jael.muñoz@gmail.com</td>
+                        	<td>2225168392</td>
+                        </tr>
+                        <tr>
+                        	<td>Paola</td>
+                        	<td>Sandoval Morales</td>
+                        	<td>La laguna #24</td>
+                        	<td>pao.morales@gmail.com</td>
+                        	<td>9516445570</td>
+                        </tr>
+                        <tr>
+                        	<td>Laisha</td>
+                        	<td>Sánchez Manjarrez</td>
+                        	<td>Casco viejo #2B Fracc. Hacienda San Juan</td>
+                        	<td>laisha.sanchez@gmail.com</td>
+                        	<td>2223401031</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        
+                    </tfoot>
+                </table>
+                </div>
+                
+        	</section>
+        	<section>
+        		<h2>Tabla hover</h2>
+                <p>Cow chicken ham meatball ham ribs pancetta 
+                    hamburger. Pig biltong sopressata tip loin 
+                    prosciutto ham beef beef tip drumstick 
+                    bierschinken pig sirloin, ham ham braunschweiger 
+                    tip jowl sirloin ham sopressata, cow tip belly 
+                    tri-tip, leberkas ham shoulder ham meatball swine 
+                    ham hamburger bierschinken. Ham ham tail chicken 
+                    ham landjaeger ribs ham kielbasa sopressata. 
+                    Turducken ground tip capicola bierschinken, ham 
+                    corned ham jowl, bresaola shank ribeye tip beef, 
+                    tip tip turkey beef ribs ham porchetta beef 
+                    brisket sirloin, fatback jowl venison biltong pig 
+                    jerky sausage turducken, tip short ham jowl. Belly 
+                    tenderloin ham andouillette tip pig boudin 
+                    andouille. Chop tri-tip hamburger, sausage bacon 
+                    tail ham round. Drumstick ham brisket.</p>
+                <div class="desbordamiento">
+                    <table id="tab4">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellidos</th>
+                            <th>Dirección</th>
+                            <th>Email</th>
+                            <th>Teléfono</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                         <!--(tr>(td*5))*5 emmet que hace 5 filas con 5 columnas-->
+                        <tr>
+                        	<td>Rosario</td>
+                        	<td>Gomez Farias</td>
+                        	<td>Calle de las flores #25</td>
+                        	<td>charito.gomez@gmail.com</td>
+                        	<td>2223403211</td>
+                        </tr>
+                        <tr>
+                        	<td>Eduardo</td>
+                        	<td>Sánchez Martinez</td>
+                        	<td>Calle los bosques #12</td>
+                        	<td>edu.sanchez@gmail.com</td>
+                        	<td>2224567891</td>
+                        </tr>
+                        <tr>
+                        	<td>Jael</td>
+                        	<td>Rodriguez Muñoz</td>
+                        	<td>San bartolo #39</td>
+                        	<td>jael.muñoz@gmail.com</td>
+                        	<td>2225168392</td>
+                        </tr>
+                        <tr>
+                        	<td>Paola</td>
+                        	<td>Sandoval Morales</td>
+                        	<td>La laguna #24</td>
+                        	<td>pao.morales@gmail.com</td>
+                        	<td>9516445570</td>
+                        </tr>
+                        <tr>
+                        	<td>Laisha</td>
+                        	<td>Sánchez Manjarrez</td>
+                        	<td>Casco viejo #2B Fracc. Hacienda San Juan</td>
+                        	<td>laisha.sanchez@gmail.com</td>
+                        	<td>2223401031</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        
+                    </tfoot>
+                </table>
+                </div>
+        	</section>
+            	<section>
+        		<h2>Tablas</h2>
+                <p>Cow chicken ham meatball ham ribs pancetta 
+                    hamburger. Pig biltong sopressata tip loin 
+                    prosciutto ham beef beef tip drumstick 
+                    bierschinken pig sirloin, ham ham braunschweiger 
+                    tip jowl sirloin ham sopressata, cow tip belly 
+                    tri-tip, leberkas ham shoulder ham meatball swine 
+                    ham hamburger bierschinken. Ham ham tail chicken 
+                    ham landjaeger ribs ham kielbasa sopressata. 
+                    Turducken ground tip capicola bierschinken, ham 
+                    corned ham jowl, bresaola shank ribeye tip beef, 
+                    tip tip turkey beef ribs ham porchetta beef 
+                    brisket sirloin, fatback jowl venison biltong pig 
+                    jerky sausage turducken, tip short ham jowl. Belly 
+                    tenderloin ham andouillette tip pig boudin 
+                    andouille. Chop tri-tip hamburger, sausage bacon 
+                    tail ham round. Drumstick ham brisket.</p>
+                <div class="desbordamiento">
+                    <table class="tab5">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellidos</th>
+                            <th>Dirección</th>
+                            <th colspan="2">Email</th>
+                            <th colspan="2">Teléfono</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                         <!--(tr>(td*5))*5 emmet que hace 5 filas con 5 columnas-->
+                        <tr>
+                        	<td>Rosario</td>
+                        	<td>Gomez Farias</td>
+                        	<td>Calle de las flores #25</td>
+                        	<td>charito.gomez@gmail.com</td>
+                            <td>Cha.rito@hotmail.com</td>
+                        	<td>2223403211</td>
+                            <td>7979999</td>
+                        </tr>
+                        <tr>
+                        	<td>Eduardo</td>
+                        	<td>Sánchez Martinez</td>
+                        	<td>Calle los bosques #12</td>
+                        	<td>edu.sanchez@gmail.com</td>
+                            <td></td>
+                        	<td>2224567891</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                        	<td>Jael</td>
+                        	<td>Rodriguez Muñoz</td>
+                        	<td>San bartolo #39</td>
+                        	<td>jael.muñoz@gmail.com</td>
+                            <td></td>
+                        	<td>2225168392</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                        	<td>Paola</td>
+                        	<td>Sandoval Morales</td>
+                        	<td>La laguna #24</td>
+                        	<td>pao.morales@gmail.com</td>
+                            <td>pao@hotmail.com</td>
+                        	<td>9516445570</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                        	<td>Laisha</td>
+                        	<td>Sánchez Manjarrez</td>
+                        	<td>Casco viejo #2B Fracc. Hacienda San Juan</td>
+                        	<td>laisha.sanchez@gmail.com</td>
+                            <td></td>
+                        	<td>2223401031</td>
+                            <td>12446885</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        
+                    </tfoot>
+                </table>
+                </div>
+        	</section>
+        </main>
+        <footer>
+        	<h5>Elaborado por Laisha Sánchez</h5>
+        </footer>
+    </body>
+</html>

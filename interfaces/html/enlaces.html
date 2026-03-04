@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Title</title>
+        <style type="text/css">
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            header, footer{
+                text-align: center;
+            }
+            header, nav, main, footer{
+                width: 1200px;
+                padding: 50px;
+                background-color: #735238;
+                color: #ffffff;
+            }
+            nav{
+               background-color: #9D8977;
+            }
+            /*-----MENÚ-----*/
+            nav ul{
+                text-align: center;
+            }
+            nav ul li{
+                list-style-type: none;
+                display: inline-block;
+                width: 100px;
+                background-color: #886E58;
+                padding: 10px;
+                text-align: center;
+            }
+            main{
+                height:auto;
+                background-color: #B2A496;
+                color: black;
+            }
+            main section{
+                height: auto;
+                width: 900px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 50px;
+            }
+            main section h2{
+                margin-bottom: 20px;
+            }
+            /*cambia el color del enlace cuando no ha sido visitado */
+            main section a:link  main section a:visited{
+                text-decoration: none;
+                color:#ffffff;
+                font-size: unset;
+            }
+            main section a:hover{
+                color: brown;
+            }
+            nav ul li a:link nav ul li a:visited main section ul li a:link{
+                text-decoration: none;
+                color: antiquewhite;
+            }
+            nav ul li a:hover nav section nav ul a:hover{
+                color: #B2A496;
+                font-weight: bolder;
+                font-size: x-large;
+            }
+            main section nav{
+                width: 800px;
+            }
+             header img{
+                width: 24px;
+                height: auto;
+                margin: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Práctica 3: enlaces</h1>
+            <a href="../index.html"><img class="header-img" src="../imagenes/casa.png"> </a> 
+        </header>
+        <nav>
+            <ul>
+                <li><a href="practica_uno.html" target="_blank">Formatos</a></li>
+                <li><a href="Listas.html" target="_blank">Listas</a></li>
+                <li><a href="enlaces.html">Enlaces</a></li>
+                <li><a href="../html/tablas.html">Tablas</a></li>
+                <li><a href="../html/imagenes.html">Imágenes</a></li>
+                <li><a href="../html/audios.html">Audio</a></li>
+                <li><a href="../html/videos.html">Video</a></li>
+                <li><a href="../html/formularios.html">Formulario</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2 id="externo">Título</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus consectetur orci non justo fringilla
+                 consectetur. In sit amet dui risus. Integer ut rutrum ante. Aliquam vel nunc ac ex efficitur convallis.
+                  Maecenas eget enim quis turpis iaculis eleifend. Proin mollis leo eu vestibulum efficitur. Sed dignissim
+                    fringilla lacus non semper <a href="http://www.buap.mx" target="_blank">Benemérita Universidad Autónoma de Puebla</a>. Mauris at condimentum dui. Pellentesque eleifend ipsum sed aliquam gravida.
+                    In gravida lectus suscipit enim pulvinar faucibus. Quisque vel ante luctus, gravida mauris at, vehicula
+                 quam. Donec varius fermentum neque vitae viverra. Pellentesque nec nisi dui. Nulla facilisi. Cras 
+                 vitae turpis sit amet urna scelerisque gravida in in magna. Morbi.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus consectetur orci non justo fringilla
+                 consectetur. In sit amet dui risus. Integer ut rutrum ante. Aliquam vel nunc ac ex efficitur convallis.
+                  Maecenas eget enim quis turpis iaculis eleifend. Proin mollis leo eu vestibulum efficitur. Sed dignissim
+                   fringilla lacus non semper. Mauris at condimentum dui.  Pellentesque eleifend ipsum sed aliquam gravida.
+                    In gravida lectus suscipit enim pulvinar faucibus. Quisque vel ante luctus, gravida mauris at, vehicula
+                 quam. Donec varius fermentum neque vitae viverra. Pellentesque nec nisi dui. Nulla facilisi. Cras 
+                 vitae turpis sit amet urna scelerisque gravida in in magna. Morbi.</p>
+            </section>
+            <section>
+                <h2 id="interno">Título</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus consectetur orci non justo fringilla
+                 consectetur. In sit amet dui risus. Integer ut rutrum ante. Aliquam vel nunc ac ex efficitur convallis.
+                  Maecenas eget enim quis turpis iaculis eleifend. Proin mollis leo eu vestibulum efficitur. Sed dignissim
+                   fringilla lacus non semper. Mauris at condimentum dui. Pellentesque eleifend ipsum sed aliquam gravida.
+                    In gravida lectus suscipit enim pulvinar faucibus. Quisque vel ante luctus, 
+                    gravida mauris at, vehicula
+                 quam. Donec varius fermentum neque vitae viverra. Pellentesque nec nisi dui. Nulla facilisi. Cras 
+                 vitae turpis sit amet urna scelerisque gravida in in magna. Morbi.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus consectetur orci non justo fringilla
+                 consectetur. In sit amet dui risus. Integer ut rutrum ante. Aliquam vel nunc ac ex efficitur convallis.
+                  Maecenas eget enim quis turpis iaculis eleifend. Proin mollis leo eu vestibulum efficitur. Sed dignissim
+                   fringilla lacus non semper. Mauris at condimentum dui. Pellentesque eleifend ipsum sed aliquam gravida.
+                    In gravida lectus suscipit enim pulvinar faucibus. Quisque vel ante luctus, gravida mauris at, vehicula
+                 quam. Donec varius fermentum neque vitae viverra. Pellentesque nec nisi dui. Nulla facilisi. Cras 
+                 vitae turpis sit amet urna scelerisque gravida in in magna. Morbi.</p>
+            </section>
+            <section>
+                <h2 id="descarga">Título</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus consectetur orci non justo fringilla
+                 consectetur. In sit amet dui risus. Integer ut rutrum ante. Aliquam vel nunc ac ex efficitur convallis.
+                  Maecenas eget enim quis turpis iaculis eleifend. Enlace de correo electronico <a href="mailto:laisha.sanchezm@alumno.buap.mx" target="_blank"> Laisha Sachez </a>
+                    Proin mollis leo eu vestibulum efficitur. Sed dignissim
+                   fringilla lacus non semper. Mauris at condimentum dui. Pellentesque eleifend ipsum sed aliquam gravida.
+                    In gravida lectus suscipit enim pulvinar faucibus. Quisque vel ante luctus, gravida mauris at, vehicula
+                 quam. Donec varius fermentum neque vitae viverra. Pellentesque nec nisi dui. Nulla facilisi. Cras 
+                 vitae turpis sit amet urna scelerisque gravida in in magna. Morbi.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus consectetur orci non justo fringilla
+                 consectetur. In sit amet dui risus. Integer ut rutrum ante. Aliquam vel nunc ac ex efficitur convallis.
+                  Maecenas eget enim quis turpis iaculis eleifend. Proin mollis leo eu vestibulum efficitur. Sed dignissim
+                   fringilla lacus non semper. Mauris at condimentum dui. Pellentesque eleifend ipsum sed aliquam gravida.
+                    In gravida lectus suscipit enim pulvinar faucibus. Quisque vel ante luctus, gravida mauris at, vehicula
+                 quam. Donec varius fermentum neque vitae viverra. Pellentesque nec nisi dui. Nulla facilisi. Cras 
+                 vitae turpis sit amet urna scelerisque gravida in in magna. Morbi.</p>
+            </section>
+            <section>
+                <h2 id="Email">Título</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus consectetur orci non justo fringilla
+                 consectetur. In sit amet dui risus. Integer ut rutrum ante. Aliquam vel nunc ac ex efficitur convallis.
+                  Maecenas eget enim quis turpis iaculis eleifend. Proin mollis leo eu vestibulum efficitur. Sed dignissim
+                   fringilla lacus non semper. Mauris at condimentum dui. Pellentesque eleifend ipsum sed aliquam gravida.
+                    In gravida lectus suscipit enim pulvinar faucibus. Quisque vel ante luctus, gravida mauris at, vehicula
+                 quam. Donec varius fermentum neque vitae viverra. Pellentesque nec nisi dui. Nulla facilisi. Cras 
+                 vitae turpis sit amet urna scelerisque gravida in in magna. Morbi.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus consectetur orci non justo fringilla
+                 consectetur. In sit amet dui risus. Integer ut rutrum ante. Aliquam vel nunc ac ex efficitur convallis.
+                  Maecenas eget enim quis turpis iaculis eleifend. Proin mollis leo eu vestibulum efficitur. Sed dignissim
+                   fringilla lacus non semper. Mauris at condimentum dui. Pellentesque eleifend ipsum sed aliquam gravida.
+                    In gravida lectus suscipit enim pulvinar faucibus. Quisque vel ante luctus, gravida mauris at, vehicula
+                 quam. Donec varius fermentum neque vitae viverra. Pellentesque nec nisi dui. Nulla facilisi. Cras 
+                 vitae turpis sit amet urna scelerisque gravida in in magna. Morbi.</p>
+            </section>
+            <section>
+                <nav>
+                    <ul>
+                    <li><a href="Email">Email</a></li>
+                    <li><a href="interno">Interno</a></li>
+                  <li><a href="externos">Externo</a></li>  
+                    <li><a href="descarga">Descarga</a></li>
+                </ul>
+                </nav>
+            </section>
+        </main>
+        <footer>
+            <h5>Elaborado por Laisha M. Sanchez M.</h5>
+        </footer>
+    </body>
+</html>
